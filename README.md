@@ -24,9 +24,9 @@
 <!-- Quick Stats -->
 <table>
 <tr>
-<td align="center"><b>📁 Practicals</b><br/><code>4 Modules</code></td>
-<td align="center"><b>📄 Programs</b><br/><code>8 Solutions</code></td>
-<td align="center"><b>🔍 Topics</b><br/><code>3 Core Areas</code></td>
+<td align="center"><b>📁 Practicals</b><br/><code>12 Modules</code></td>
+<td align="center"><b>📄 Programs</b><br/><code>17 Solutions</code></td>
+<td align="center"><b>🔍 Topics</b><br/><code>5 Core Areas</code></td>
 <td align="center"><b>⚡ Language</b><br/><code>Pure C</code></td>
 </tr>
 </table>
@@ -74,6 +74,12 @@
 │
 ├── 📂 Practical - 10 (Minimum Spanning Trees)
 │   └── 10.1.1. Minimum Spanning Tree us.c
+│
+├── 📂 Practical - 11
+│   └── Que no 1.c
+│
+├── 📂 Practical - 12
+│   └── Que 2.c
 │
 └── 📄 README.md
 ```
@@ -324,6 +330,40 @@
 <td><b>10.1.1.</b> Prim's Algorithm</td>
 <td>Finds the **Minimum Spanning Tree (MST)** for a weighted undirected graph using an adjacency matrix.</td>
 <td><code>O(V²)</code></td>
+</tr>
+</table>
+
+---
+
+### 🌳 Practical 11 — Binary Search Trees (Value Added)
+
+<table>
+<tr>
+<th>📄 Program</th>
+<th>📝 Description</th>
+<th>⏱️ Time Complexity</th>
+</tr>
+<tr>
+<td><b>11.1.1.</b> printInRange</td>
+<td>Finds and prints all nodes in a **Binary Search Tree (BST)** that fall within a given range <code>[low, high]</code>.</td>
+<td><code>O(h + k)</code></td>
+</tr>
+</table>
+
+---
+
+### 📥 Practical 12 — Stack Operations (Value Added)
+
+<table>
+<tr>
+<th>📄 Program</th>
+<th>📝 Description</th>
+<th>⏱️ Performance</th>
+</tr>
+<tr>
+<td><b>12.1.1.</b> isBalanced</td>
+<td>Uses a **Stack** data structure to check if a sequence of parentheses (<code>()</code>, <code>[]</code>, <code>{}</code>) is balanced.</td>
+<td><code>O(n)</code></td>
 </tr>
 </table>
 
